@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    letter-spacing: 0%;
+    margin: 44px 0 0 76px;
+    cursor: pointer;
+    color: #989D9C;
+}
+
+a {
+    margin-right: 23px;
+}
+
+a:hover {
+    opacity: .4;
+}
+
+a:active {
+    opacity: .8;
+}
+
+.button-login {
+    width: 130px;
+    height: 41px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background-color: #665AE1;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .4
+}
+
+img {
+    display: inline-block;
+    margin: 144px 0 0 125px;
+    width: 568px;
+    height: 500px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 121.9px;
+    letter-spacing: 0%;
+    width: 513px;
+    height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 70.7px;
+    letter-spacing: 0%;
+    width: 448px;
+    height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.26px;
+    letter-spacing: 0%;
+    width: 515px;
+    height: 87px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-explore {
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34.13px;
+    letter-spacing: 0%;
+    color: #000000;
+    background: #ADFF00;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    .img-section {
+        display: inline-block;
+    }
+
+    img { 
+        position: static;
+        width: 354px;
+        height: 317px;
+        margin: 149px 22px 0 14px;
+    }
+
+    section{
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 60.95px;
+        letter-spacing: 0%;
+        margin: 24px 63px 0;
+    }
+
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 36.57px;
+        letter-spacing: 0%;
+        margin: 7px 79px 17px;
+    }
+
+    .button-explore {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34.13px;
+        letter-spacing: 0%;
+        margin: 0 auto;
+        display: block;
+    }
+}
